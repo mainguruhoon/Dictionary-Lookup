@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import scrolledtext, messagebox
 import requests
 
+# this function is called when the search button is clicked
+
 def search_word():
     word = entry.get().strip()
     if not word:
